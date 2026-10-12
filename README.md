@@ -2,7 +2,7 @@
 
 Starter público, pequeno e orientado a agentes para criar vídeos locais com código e Remotion.
 
-O pacote não instala uma stack de aplicação, não cria serviços cloud e não inclui dados privados. Ele apenas copia um kit de projeto com instruções para Claude Code, Codex e outros agentes.
+O pacote não instala uma stack de aplicação, não cria serviços cloud e não inclui dados privados. Ele apenas copia um kit de projeto com um prompt operacional completo para Claude Code, Codex e outros agentes.
 
 ## Uso recomendado
 
@@ -46,7 +46,9 @@ my-video/
 └── .gitignore
 ```
 
-O starter não cria `package.json` no projeto de vídeo. Isso evita sobrescrever ou impor dependências em projetos existentes. O agente decide, após diagnóstico, entre iniciar Remotion do zero ou adaptar um projeto já existente.
+O starter não cria `package.json` no projeto de vídeo. Isso evita sobrescrever ou impor dependências em projetos existentes. O agente decide, após diagnóstico e aprovação, entre iniciar Remotion do zero ou adaptar um projeto já existente.
+
+`AGENTS.md` contém o fluxo completo: diagnóstico do computador, consulta obrigatória à documentação oficial do Remotion, aprovação antes de instalar dependências, inspeção de assets, beat map, direção visual, preview e aprovação antes do render final.
 
 ## Bootstrap Remotion
 
