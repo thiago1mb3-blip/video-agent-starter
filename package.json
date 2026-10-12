@@ -1,0 +1,42 @@
+{
+  "name": "video-agent-starter",
+  "version": "0.1.0",
+  "description": "Minimal, agent-friendly starter for creating local videos with Remotion.",
+  "type": "commonjs",
+  "bin": {
+    "video-agent-starter": "bin/video-agent-starter.cjs"
+  },
+  "files": [
+    "AGENTS.md",
+    "README.md",
+    "CLAUDE.md",
+    "LICENSE",
+    "bin",
+    "templates"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "pack:check": "npm pack --dry-run"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "remotion",
+    "video",
+    "generative-video",
+    "coding-agent",
+    "claude-code",
+    "codex",
+    "starter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thiago1mb3-blip/video-agent-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thiago1mb3-blip/video-agent-starter/issues"
+  },
+  "homepage": "https://github.com/thiago1mb3-blip/video-agent-starter#readme",
+  "license": "MIT"
+}
